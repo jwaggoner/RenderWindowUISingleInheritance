@@ -28,6 +28,10 @@ stdarg.h
 QtCore/qstringbuilder.h
 -
 
+/Library/Frameworks/QtGui.framework/Headers/QApplication
+qapplication.h
+/Library/Frameworks/QtGui.framework/Headers/qapplication.h
+
 /Library/Frameworks/QtGui.framework/Headers/QFileDialog
 qfiledialog.h
 /Library/Frameworks/QtGui.framework/Headers/qfiledialog.h
@@ -35,6 +39,28 @@ qfiledialog.h
 /Library/Frameworks/QtGui.framework/Headers/QMainWindow
 qmainwindow.h
 /Library/Frameworks/QtGui.framework/Headers/qmainwindow.h
+
+/Library/Frameworks/QtGui.framework/Headers/qapplication.h
+QtCore/qcoreapplication.h
+-
+QtGui/qwindowdefs.h
+-
+QtCore/qpoint.h
+-
+QtCore/qsize.h
+-
+QtGui/qcursor.h
+-
+QtGui/qdesktopwidget.h
+-
+QtGui/qwidget.h
+-
+QtGui/qpalette.h
+-
+QtGui/qrgb.h
+-
+QtGui/qtransportauth_qws.h
+-
 
 /Library/Frameworks/QtGui.framework/Headers/qfiledialog.h
 QtCore/qdir.h
@@ -78,6 +104,18 @@ vtkSmartPointer.h
 QMainWindow
 -
 
+/Users/michaelguarino/RenderWindowUISingleInheritance/RenderWindowUISingleInheritanceDriver.cxx
+QApplication
+-
+RenderWindowUISingleInheritance.h
+/Users/michaelguarino/RenderWindowUISingleInheritance/RenderWindowUISingleInheritance.h
+
+/Users/michaelguarino/RenderWindowUISingleInheritance/moc_RenderWindowUISingleInheritance.cxx
+RenderWindowUISingleInheritance.h
+/Users/michaelguarino/RenderWindowUISingleInheritance/RenderWindowUISingleInheritance.h
+
+/Users/michaelguarino/RenderWindowUISingleInheritance/moc_ui_RenderWindowUISingleInheritance.cxx
+
 /Users/michaelguarino/RenderWindowUISingleInheritance/ui_RenderWindowUISingleInheritance.h
 QtCore/QVariant
 -
@@ -90,6 +128,8 @@ QtGui/QButtonGroup
 QtGui/QHeaderView
 -
 QtGui/QMainWindow
+-
+QtGui/QPushButton
 -
 QtGui/QWidget
 -

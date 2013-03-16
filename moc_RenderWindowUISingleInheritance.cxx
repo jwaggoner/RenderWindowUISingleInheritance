@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'RenderWindowUISingleInheritance.h'
 **
-** Created: Sat Mar 16 01:31:48 2013
+** Created: Sat Mar 16 02:16:15 2013
 **      by: The Qt Meta Object Compiler version 63 (Qt 4.8.4)
 **
 ** WARNING! All changes made in this file will be lost!
@@ -23,7 +23,7 @@ static const uint qt_meta_data_RenderWindowUISingleInheritance[] = {
        6,       // revision
        0,       // classname
        0,    0, // classinfo
-       1,   14, // methods
+       2,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -32,13 +32,14 @@ static const uint qt_meta_data_RenderWindowUISingleInheritance[] = {
 
  // slots: signature, parameters, type, tag, flags
       33,   32,   32,   32, 0x0a,
+      44,   32,   32,   32, 0x0a,
 
        0        // eod
 };
 
 static const char qt_meta_stringdata_RenderWindowUISingleInheritance[] = {
     "RenderWindowUISingleInheritance\0\0"
-    "slotExit()\0"
+    "slotExit()\0on_pushButton_clicked()\0"
 };
 
 void RenderWindowUISingleInheritance::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
@@ -48,6 +49,7 @@ void RenderWindowUISingleInheritance::qt_static_metacall(QObject *_o, QMetaObjec
         RenderWindowUISingleInheritance *_t = static_cast<RenderWindowUISingleInheritance *>(_o);
         switch (_id) {
         case 0: _t->slotExit(); break;
+        case 1: _t->on_pushButton_clicked(); break;
         default: ;
         }
     }
@@ -86,9 +88,9 @@ int RenderWindowUISingleInheritance::qt_metacall(QMetaObject::Call _c, int _id, 
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 1)
+        if (_id < 2)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 1;
+        _id -= 2;
     }
     return _id;
 }

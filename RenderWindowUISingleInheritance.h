@@ -20,6 +20,7 @@ public:
 public slots:
  
   virtual void slotExit();
+  virtual void on_pushButton_clicked();
 
 private:
  

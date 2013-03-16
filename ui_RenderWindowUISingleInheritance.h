@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'RenderWindowUISingleInheritance.ui'
 **
-** Created: Sat Mar 16 01:23:36 2013
+** Created: Sat Mar 16 02:16:14 2013
 **      by: Qt User Interface Compiler version 4.8.4
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
@@ -16,6 +16,7 @@
 #include <QtGui/QButtonGroup>
 #include <QtGui/QHeaderView>
 #include <QtGui/QMainWindow>
+#include <QtGui/QPushButton>
 #include <QtGui/QWidget>
 #include "QVTKWidget.h"
 
@@ -31,12 +32,13 @@ public:
     QAction *actionSave;
     QWidget *centralwidget;
     QVTKWidget *qvtkWidget;
+    QPushButton *pushButton;
 
     void setupUi(QMainWindow *RenderWindowUISingleInheritance)
     {
         if (RenderWindowUISingleInheritance->objectName().isEmpty())
             RenderWindowUISingleInheritance->setObjectName(QString::fromUtf8("RenderWindowUISingleInheritance"));
-        RenderWindowUISingleInheritance->resize(541, 583);
+        RenderWindowUISingleInheritance->resize(735, 628);
         actionOpenFile = new QAction(RenderWindowUISingleInheritance);
         actionOpenFile->setObjectName(QString::fromUtf8("actionOpenFile"));
         actionOpenFile->setEnabled(true);
@@ -52,7 +54,10 @@ public:
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
         qvtkWidget = new QVTKWidget(centralwidget);
         qvtkWidget->setObjectName(QString::fromUtf8("qvtkWidget"));
-        qvtkWidget->setGeometry(QRect(10, 20, 511, 541));
+        qvtkWidget->setGeometry(QRect(90, 20, 541, 351));
+        pushButton = new QPushButton(centralwidget);
+        pushButton->setObjectName(QString::fromUtf8("pushButton"));
+        pushButton->setGeometry(QRect(90, 440, 114, 32));
         RenderWindowUISingleInheritance->setCentralWidget(centralwidget);
 
         retranslateUi(RenderWindowUISingleInheritance);
@@ -68,6 +73,7 @@ public:
         actionPrint->setText(QApplication::translate("RenderWindowUISingleInheritance", "Print", 0, QApplication::UnicodeUTF8));
         actionHelp->setText(QApplication::translate("RenderWindowUISingleInheritance", "Help", 0, QApplication::UnicodeUTF8));
         actionSave->setText(QApplication::translate("RenderWindowUISingleInheritance", "Save", 0, QApplication::UnicodeUTF8));
+        pushButton->setText(QApplication::translate("RenderWindowUISingleInheritance", "Browse", 0, QApplication::UnicodeUTF8));
     } // retranslateUi
 
 };
